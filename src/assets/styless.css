@@ -1,0 +1,10 @@
+.bg-all {
+    background-color: #ffefd550;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+}
+
+.bg-lilac {
+    background-color: #d2afff;
+}
