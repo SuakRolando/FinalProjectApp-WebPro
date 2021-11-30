@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="py-5 bg-dongker">
       <div className="container">
-        <p className="m-0 text-center text-white">
-          Copyright &copy; Suak, Rolando 2021
+        <p className="m-0 text-center text-dongker">
+          Copyright &copy; Pandelaki Mikha 2021
         </p>
       </div>
     </footer>

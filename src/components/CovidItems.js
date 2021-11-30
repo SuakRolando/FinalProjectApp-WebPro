@@ -11,7 +11,7 @@ const CovidItems = (props) => {
           </div>
         </div>
 
-        <div className="text-center text-light bg-dongker mb-4 mx-3 py-2 rounded shadow">
+        <div className="text-center text-dongker bg-dongker mb-4 mx-3 py-2 rounded shadow">
           <h3 className="display-4 fw-bolder">{props.covid.confirmed}</h3>
           <h6>Confirmed</h6>
         </div>

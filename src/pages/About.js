@@ -16,10 +16,10 @@ const About = () => {
         </h5>
         <h1>About me</h1>
         <h5 className="fw-normal">
-          Full Name :<span className="fw-light"> Suak, Rolando Hance</span>
+          Full Name :<span className="fw-light"> Pandelaki, Mikha Patricia</span>
         </h5>
         <h5 className="fw-normal">
-          NIM :<span className="fw-light"> 105011910053</span>
+          NIM :<span className="fw-light"> 105011910056</span>
         </h5>
         <h5 className="fw-normal">
           Program Study :<span className="fw-light"> Information System</span>

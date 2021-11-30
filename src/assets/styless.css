@@ -3,7 +3,11 @@
 }
 
 .bg-dongker {
-    background-color: #191f62;
+    background-color: #94ffb9;
+}
+
+.text-grey {
+    color: rgb(235, 235, 235);
 }
 
 .text-dongker {
