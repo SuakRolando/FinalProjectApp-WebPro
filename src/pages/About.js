@@ -1,20 +1,36 @@
-import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
+import React from "react";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import '../assets/styless.css';
 
 const About = () => {
-  return(
+  return (
     <>
       <Navigation />
 
-      <div className="container my-5">
+      <div className="container my-5 text-dongker">
         <h1>About this Application</h1>
-        <p>Nama Lengkap (NIM), Program Studi</p>
+        <h5 className="fw-light mb-5">
+          This Web App is made to figure out the infromations entirely about
+          cases of Covid-19 which exist over the World.
+        </h5>
+        <h1>About me</h1>
+        <h5 className="fw-normal">
+          Full Name :<span className="fw-light"> Suak, Rolando Hance</span>
+        </h5>
+        <h5 className="fw-normal">
+          NIM :<span className="fw-light"> 105011910053</span>
+        </h5>
+        <h5 className="fw-normal">
+          Program Study :<span className="fw-light"> Information System</span>
+        </h5>
       </div>
-
-      <Footer />
+      
+      <div className="fixed-bottom">
+        <Footer />
+      </div>
     </>
   );
-}
+};
 
 export default About;
